@@ -12,8 +12,6 @@ from functools import reduce
 import numpy as np
 import random
 
-# LSTM tutorial: https://machinelearningmastery.com/time-series-forecasting-long-short-term-memory-network-python/
-
 def col_based_combine_matrix(df, n_star):
 	'''
 	new col based reshape operation
